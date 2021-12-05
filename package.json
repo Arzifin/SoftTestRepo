@@ -5,15 +5,17 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "npx nyc@latest mocha"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "c8": "^7.10.0",
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
     "mocha": "^9.1.3",
-    "mochawesome": "^7.0.1"
+    "mochawesome": "^7.0.1",
+    "nyc": "^15.1.0"
   },
   "repository": {
     "type": "git",

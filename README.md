@@ -17,7 +17,7 @@ Now is a good time to also download or clone our team’s test library through (
 
 ### 2. Setup
 
-After either manual download or git cloning our team’s testing repository, the user should head to the directory, where the downloaded folder is located at in the local computer’s storage. When in the directory, the user should open command prompt and execute command
+After either manual download or git cloning our team’s testing repository, the user should head to the directory, where the acquired folder is located at in the local computer’s storage. When in the directory, the user should open command prompt and execute command
 ```npm install``` in the said directory. This will download all the dependencies all according to the package.json file. 
 After completing this step successfully, the user should be able to run the tests with ```npm test``` command.
 

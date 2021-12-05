@@ -4,10 +4,10 @@ We ran these tests with only four major dependencies:
 
 Node.js:
 https://nodejs.org/en/ 
-*C8
-*Chai
-*Mocha
-*Mochawesome
+* C8
+* Chai
+* Mocha
+* Mochawesome
 
 If you wish to recreate the test environment, then you would need to install Node.js either through an executable or through a package manager. Thankfully Node.js is quite easy to set up.
 

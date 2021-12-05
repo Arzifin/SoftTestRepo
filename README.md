@@ -14,7 +14,6 @@ https://nodejs.org/en/
 If you wish to recreate the test environment, then you would need to install Node.js either through an executable or through a package manager. Thankfully Node.js is quite easy to set up.
 
 Now is a good time to also download or clone our team’s test library through GitHub.
-https://github.com/Arzifin/SoftTestRepo 
 
 ### 2. Setup
 

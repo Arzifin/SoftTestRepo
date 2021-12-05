@@ -15,12 +15,8 @@ Now is a good time to also download or clone our team’s test library through G
 https://github.com/Arzifin/SoftTestRepo 
 
 After either manual download or git cloning our team’s testing repository, the user should place it somewhere in the local computer’s memory and head to the directory of the newly acquired test folder’s directory. When in the directory, the user should open command prompt and execute command 
->npm install
->
-in the directory. This will download all the dependencies all according to the package.json file. After completing this step successfully, the user should be able to run the tests with 
->npm test
->
-command.
+```npm install``` in the directory. This will download all the dependencies all according to the package.json file. 
+After completing this step successfully, the user should be able to run the tests with ```npm test```command.
 
 ## Disclaimer
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!

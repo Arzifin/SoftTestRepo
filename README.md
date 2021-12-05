@@ -1,4 +1,4 @@
-# Dependancies
+# Dependencies
 
 We ran these tests with only four Node dependencies:
 

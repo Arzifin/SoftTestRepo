@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npx nyc@latest mocha"
+    "test": "mocha"
   },
   "author": "",
   "license": "MIT",

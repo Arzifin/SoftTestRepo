@@ -1,19 +1,26 @@
 import chai from 'chai';
 var expect = chai.expect;
-import drop from '../src/drop.js';
 
-/*
-* 1. Force unwanted variable as parameter to function
-* 2. --
-* 3. Check that function drops 'n' -amount of elements.
-* 
-*/
+import isSymbol from '../src/isSymbol.js';
 
-describe('Drop', () => {
-
-    it ("should throw exception, when passing non-integer as 2nd parameter", () => {
-        expect(() => drop(55, "Hello")).to.throw(TypeError);
+describe('isSymbol unit tests', () => {
+    it('Symbol.iterator should return true', () => {
+        const result = isSymbol(Symbol.iterator);
+        expect(result).to.equal(true);
     });
 
-    
+    it('abc should return false', () => {
+        const result = isSymbol('abc');
+        expect(result).to.equal(false);
+    });
+
+    it('null should return false', () => {
+        const result = isSymbol(null);
+        expect(result).to.equal(false);
+    });
+
+    it('1 should return false', () => {
+        const result = isSymbol(1);
+        expect(result).to.equal(false);
+    });
 });

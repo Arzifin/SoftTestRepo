@@ -1,6 +1,6 @@
 # Dependancies
 
-We ran these tests with only four major dependencies:
+We ran these tests with only four Node dependencies:
 
 ### 1. Install
 
